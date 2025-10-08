@@ -1,0 +1,46 @@
+/* styles.css */
+/* Add common styles that are shared between pages */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('login.jpg'); /* Adjust the path based on your file structure */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.info {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  background-color: #292ce998;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
